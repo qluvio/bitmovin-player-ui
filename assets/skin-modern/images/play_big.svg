@@ -1,18 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 140 140" style="enable-background:new 0 0 140 140;" xml:space="preserve">
-<style type="text/css">
-	.st0{opacity:0.6;fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
-	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
-</style>
-<path class="st0" d="M70,5C34.1,5,5,34.1,5,70s29.1,65,65,65c35.9,0,65-29.1,65-65S105.9,5,70,5z M70,132c-34.2,0-62-27.8-62-62
-	S35.8,8,70,8c34.2,0,62,27.8,62,62S104.2,132,70,132z"/>
-<g id="Shape_2_copy">
-	<g>
-		<path class="st1" d="M89.2,68.5L63.1,50.4c-0.6-0.4-1.4-0.5-2-0.1c-0.6,0.3-1.1,1-1.1,1.7v36.2c0,0.7,0.4,1.4,1.1,1.7
-			c0.3,0.1,0.6,0.2,0.9,0.2c0.4,0,0.8-0.1,1.1-0.4l26.1-18.1c0.5-0.4,0.8-0.9,0.8-1.5C90,69.4,89.7,68.8,89.2,68.5z M63.9,84.4V55.6
-			L84.7,70L63.9,84.4z"/>
+<svg width="100%" height="100%" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg"
+		 xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+		<filter x="-2.0%" y="-2.5%" width="104.7%" height="104.5%" filterUnits="objectBoundingBox" id="filter-1">
+			<feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+			<feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+			<feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.4 0" type="matrix" in="shadowBlurOuter1"
+										 result="shadowMatrixOuter1"></feColorMatrix>
+			<feMerge>
+				<feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+				<feMergeNode in="SourceGraphic"></feMergeNode>
+			</feMerge>
+		</filter>
+	</defs>
+	<g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+		<g id="component/s8.1_episode" transform="translate(-169.000000, -84.000000)">
+			<g id="S8_Episodes">
+				<g filter="url(#filter-1)">
+					<g id="icon/64/play" transform="translate(170.000000, 84.000000)">
+						<g id="ico_64px_Play">
+							<circle id="Oval" fill-opacity="0.25" fill="#80743C" cx="32" cy="32" r="30"></circle>
+							<path d="M32,60 C47.463973,60 60,47.463973 60,32 C60,16.536027 47.463973,4 32,4 C16.536027,4 4,16.536027 4,32 C4,47.463973 16.536027,60 32,60 Z M32,62 C15.4314575,62 2,48.5685425 2,32 C2,15.4314575 15.4314575,2 32,2 C48.5685425,2 62,15.4314575 62,32 C62,48.5685425 48.5685425,62 32,62 Z"
+										id="Oval" fill="#D2BA76"></path>
+							<polygon id="Triangle" fill="#FFFFFF" points="44.5 32.625 27 45.75 27 19.5"></polygon>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
 	</g>
-</g>
 </svg>
