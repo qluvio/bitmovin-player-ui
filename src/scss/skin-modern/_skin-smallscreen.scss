@@ -58,10 +58,10 @@
     }
   }
 
-  // Decrease huge play button size and replace icon with normal play icon
+  // Decrease huge play button size
   .#{$prefix}-ui-hugeplaybacktogglebutton {
     .#{$prefix}-image {
-      background-image: svg('assets/skin-modern/images/play.svg');
+      background-image: svg('assets/skin-modern/images/play_big.svg');
       background-size: 4em;
     }
   }
