@@ -3,7 +3,7 @@
 
 .#{$prefix}-ui-volumetogglebutton {
   @extend %ui-button;
-
+  padding: 0.7em;
   &:hover {
     @include svg-icon-shadow;
   }

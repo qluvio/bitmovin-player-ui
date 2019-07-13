@@ -3,9 +3,8 @@
 
 .#{$prefix}-ui-playbacktogglebutton {
   @extend %ui-button;
-
+  padding: 0;
   background-image: svg('assets/skin-modern/images/play.svg');
-
   &:hover {
     @include svg-icon-shadow;
   }

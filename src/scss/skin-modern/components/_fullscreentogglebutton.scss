@@ -3,7 +3,7 @@
 
 .#{$prefix}-ui-fullscreentogglebutton {
   @extend %ui-button;
-
+  padding: 0.7em;
   background-image: svg('assets/skin-modern/images/fullscreen.svg');
 
   &:hover {

@@ -3,7 +3,6 @@
 
 .#{$prefix}-ui-volumecontrolbutton {
   @extend %ui-container;
-
   line-height: 0; // Fix layout for Firefox: removes spurious space in the container
   position: relative;
 
