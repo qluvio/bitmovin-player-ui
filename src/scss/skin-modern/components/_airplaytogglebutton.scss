@@ -3,7 +3,7 @@
 
 .#{$prefix}-ui-airplaytogglebutton {
   @extend %ui-button;
-
+  padding: 0.7em;
   background-image: svg('assets/skin-modern/images/airplay.svg');
 
   &:hover {

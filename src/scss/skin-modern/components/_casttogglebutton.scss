@@ -3,7 +3,7 @@
 
 .#{$prefix}-ui-casttogglebutton {
   @extend %ui-button;
-
+  padding: 0.7em;
   background-image: svg('assets/skin-modern/images/chromecast.svg');
 
   &:hover {
