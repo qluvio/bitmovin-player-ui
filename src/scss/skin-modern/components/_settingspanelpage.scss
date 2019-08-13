@@ -5,6 +5,9 @@
 
   &.#{$prefix}-active {
     display: block;
+    overflow-y: auto;
+    max-height: 15em;
+    width: 20em;
   }
 
   // A "line" in the panel: a container holding a label + control
